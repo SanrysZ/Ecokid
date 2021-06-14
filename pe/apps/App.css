@@ -1,0 +1,70 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo{
+  height: 32px;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+  top: -3px;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 1;
+  position: fixed;
+  height: 10%;
+  width:100%;
+  display: flex;
+  align-items: center;
+  display:flex;
+}
+
+
+header nav a {
+  word-spacing: 10%;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 35px;
+  font-family: 'Quicksand';
+  left: 50%;
+  position: relative;
+}
+
+.Imagenes-apps{
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.Imagenes-apps img{
+  border-radius:20px;
+  position: relative;
+  top:200px;
+  height: 200px;
+  padding-left: 12px;
+  padding-top: 10px;
+  left:15%;
+}
+
+.Imagenes-apps img:hover{
+  background-color: rgba(28, 232, 171, 0.88);
+  transition: 0.5s;
+}
+
+body{
+  background-image: url(https://images.unsplash.com/photo-1611153661566-9cb802ffe968?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=838&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2{
+  font-family:century gothic;
+  position: relative
+  top: -14%;
+  font-size:60px;
+  color: white;
+  margin-left: 13%;
+  margin-top: -9%;
+}

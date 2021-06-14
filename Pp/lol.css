@@ -1,0 +1,282 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo{
+  height: 32px;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+  top: -3px;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 1;
+  position: fixed;
+  height: 10%;
+  height: 10%;
+  width:100%;
+  display: flex;
+  align-items: center;
+  display:flex;
+}
+
+
+header nav a {
+  word-spacing: 10%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Quicksand';
+  left: 50%;
+  position: relative;
+  padding:20px;
+}
+
+header nav a:hover{
+  color: #FFFB84;
+}
+
+.piso1{
+  background-image: url(https://i.imgur.com/VOXAXGF.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.piso1 h1 {
+  position: relative;
+  top: 260px;
+  text-align: center;
+  font-size: 40px;
+    font-family: 'Quicksand';
+}
+
+.piso1 a{
+  position: relative;
+  top:330px;
+  text-decoration: none;
+  color: black;
+  left: 46%;
+  font-size: 20px;
+  font-family: 'Quicksand';
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.piso1 a:hover{
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  transition: 0.5s;
+  border-radius: 15px;
+  box-shadow: 18px;
+  top:320px;
+  position: relative;
+}
+
+.piso2{
+  height: 100vh;
+  background-image: url(https://i.imgur.com/1Y5Al4K.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  flex-wrap: wrap;
+}
+.piso2 h2{
+  font-family: 'Quicksand';
+  font-size:44px;
+  left: 80px;
+  top: 140px;
+  position: relative;
+}
+.piso2 a{
+  font-family: 'Quicksand';
+  font-size:22px;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  left: 140px;
+  top: 190px;
+}
+.piso2 a:hover{
+  color:#2BB89A;
+}
+
+.piso2 a img{
+  position: relative;
+  height: 500px;
+  top:-430px;
+  border-radius:15px;
+  left:54%;
+}
+.pisotema1{
+  background-image: url(https://i.imgur.com/XDt0uwe.jpg);
+  height:100vh;
+
+}
+.pisotema6{
+  background-color:white;
+  height: 160vh;
+  background-size: cover;
+}
+
+.pisotema6 a{
+  font-family: 'Quicksand';
+  font-size: 40px;
+  position: relative;
+  left: 40px;
+}
+
+.pisotema6 p{
+  font-family: 'Quicksand';
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+}
+.lok{
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  background-size: cover;
+  height:0vh;
+  display:flex;
+
+}
+.lok img{
+  height:400px;
+  border-radius: 15px;
+  position: relative;
+  top:-500px;
+  justify-content: space-between;
+  left: 192;
+  left:100px;
+  padding-left: 3%;
+}
+.lok img:hover{
+  top:-520px;
+  position: relative;
+  transition:0.5s;
+  background-image:rgba(70, 74, 73, 0.5);
+}
+
+.lok h1{
+  position: relative;
+  font-family: 'Quicksand';
+  top: 120px;
+  left: -900px;
+}
+.lok video{
+  height: 500px;
+  position: relative;
+  right: 65%;
+  top: 120px;
+}
+
+.biodiversidad{
+  background-image:url(https://i.imgur.com/0rfXXgl.jpg);
+  height: 100vh;
+}
+.biodiversidad h1{
+  position: relative;
+  font-family: 'Quicksand';
+  top: 120px;
+  left: 0px;
+  text-align: center;
+}
+.biodiversidad p{
+  position: relative;
+  font-family: 'Quicksand';
+  top: 180px;
+  left: 0px;
+  text-align: center;
+  font-size: 18px;
+}
+.ultimo{
+  background-image:url(https://i.imgur.com/VHgmrqj.jpg);
+  height: 100vh;
+}
+.ultimo h1{
+  position: relative;
+  font-family: 'Quicksand';
+  top: 120px;
+  left: 100px;
+  text-align: center;
+}
+.ultimo p{
+  position: relative;
+  font-family: 'Quicksand';
+  top: 180px;
+  left: 100px;
+  text-align: center;
+  font-size: 18px;
+}
+.Videos{
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  height: 100vh;
+}
+.Videos h1{
+  font-family: 'Quicksand';
+  position: relative;
+  top: 70px;
+  left: 40px;
+}
+.Videos a img{
+  border-radius: 40px;
+  position: relative;
+  top: 120px;
+  justify-content: space-between;
+}
+
+.Videos a img:hover{
+  box-shadow: 18px;
+  position: relative;
+  top: 110px;
+  transition:0.5s;
+}
+.pisotema1 a{
+  position: relative;
+  font-family: 'Quicksand';
+  top: 120px;
+  left: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+.pisotema1 p{
+  position: relative;
+  font-family: 'Quicksand';
+  top: 170px;
+  left: 00px;
+  text-align: center;
+  font-size: 19px;
+}
+.Fuentes{
+  background-color: black;
+  height:50vh;
+}
+.Fuentes h1{
+  position: relative;
+  font-family: 'Quicksand';
+  top: 10px;
+  left: 0px;
+  text-align: center;
+  color: white;
+}
+.Fuentes p{
+  position: relative;
+  font-family: 'Quicksand';
+  top: 10px;
+  left: 0px;
+  text-align: center;color: white;
+}
+footer{
+   background: white;
+ }
+ footer h1{
+   text-align: center;
+   font-family: 'Quicksand';
+ }
+ footer p{
+   text-align: center;
+   font-family: 'Quicksand';
+ }
